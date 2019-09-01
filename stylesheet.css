@@ -1,0 +1,167 @@
+body{
+	background-image: url("images/black_back.jpg");
+}
+div.outter{
+
+	top:145px;
+	position:relative;
+	height:300px;
+	background-blend-mode: darker;
+	background-image:url("images/login2_back.png");
+	background-color:none;
+	background-size:cover;
+	width: 424px;
+	margin:auto;
+	
+	
+}
+div.head{
+	height:40px;
+	width:424px;
+	margin:auto;
+	top:120px;
+	
+	
+	
+}
+div{
+	
+	position:relative;
+	margin:auto
+	
+}
+div.form1{
+	height: 200px;
+	width:250px;
+	margin: auto;
+	top:100px;	
+}
+div.main{
+	
+	height:1800px;
+	margin:auto;
+	top: 160px;
+	background-color:silver;
+}
+.toolbar{
+	
+	position:fixed;
+}
+h1{
+	font-family: georgian;
+	font-size: 25px;
+	color: silver;
+	margin-left:90px;
+}
+.tooltext{
+	position:relative;
+	color:silver;
+	text-align:center;
+	bottom:7px;
+	/*letter-spacing:1pxpx;
+	line-height:0;
+	word-spacing:5px;*/
+	
+	}
+	
+.box{
+	top:5px;
+	opacity:100;
+	
+	/*transition: transform .2s;*/
+}
+.box:hover{
+	/*transform:scale(1.2);*/
+	top:5px;
+	border-radius:100px;
+	background-color:black;
+	opacity:0.9;
+}
+.text1{
+	position:relative;
+	color:rgb(87,87,87);
+	font-style:cursive;
+	margin-left:50px;
+	margin-right:20px;
+	top:30px;
+	font-size:20px;
+	/*letter-spacing:0.5px;
+	line-height:1;*/
+	/*word-spacing:2px;*/
+	
+}
+.travel{
+	position:relative;
+	letter-spacing:1px;
+	line-height:3;
+	word-spacing:3px;
+	font-style:cursive;
+	margin-left:50px;
+	margin-right:20px;
+	top:30px;
+	font-size:20px;
+}
+.me
+    {
+      position: relative;
+      top: 25px;
+      left: 35px;
+		
+    }
+.imge{
+	position:relative;
+    top:70px;
+	left:20px;
+	max-width:250px;
+	height:250px;
+	border-radius:125px;
+	margin:auto;
+}	
+.circle
+    {
+      position: relative;
+      top: 70px;
+      left: 100px;
+    }
+div.photo_back{
+	max-width:100%;
+	height:400px;
+	background-color:rgb(89,89,89);
+	position:relative;
+	top:50px;
+}
+p.photo{
+	position:relative;
+	color:white;
+	font-style:cursive;
+	margin-left:300px;
+	margin-right:20px;
+
+	font-size:20px;
+}
+.box1{
+	opacity:0.8;
+	background-color:black;
+	transition: transform .2s;
+	color:white;
+	font-size:30px;
+}
+.box1:hover{
+	transform:scale(0.9);
+	border:2px solid black;
+	opacity:1;
+	border:2px solid white;
+	border-radius:0px;
+}
+.box2{
+	
+	transition: transform .2s;
+	
+	
+}
+.box2:hover{
+	transform:scale(1.2);
+	color:yellow;
+	opacity:0.9;
+	background-color:black;
+}
